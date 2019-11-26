@@ -1,4 +1,8 @@
 <?php
+echo "Hello ".$_SERVER['HTTP_HOST'];
+
+phpinfo();
+exit;
 /**
  * The Front Controller for handling every request
  *
