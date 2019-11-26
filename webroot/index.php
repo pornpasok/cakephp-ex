@@ -1,7 +1,7 @@
 <?php
-echo "Pod IP: ".$_SERVER['SERVER_ADDR']."Name: ".$_ENV['HOSTNAME'];
+echo "Pod IP: ".$_SERVER['SERVER_ADDR']." Name: ".$_ENV['HOSTNAME'];
 
-phpinfo();
+//phpinfo();
 exit;
 /**
  * The Front Controller for handling every request
