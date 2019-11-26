@@ -1,5 +1,5 @@
 <?php
-echo "Hello ".$_SERVER['HTTP_HOST'];
+echo "Pod IP: ".$_SERVER['SERVER_ADDR']."Name: ".$_ENV['HOSTNAME'];
 
 phpinfo();
 exit;
