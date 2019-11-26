@@ -1,6 +1,6 @@
 <?php
 echo "Pod IP: ".$_SERVER['SERVER_ADDR']." Name: ".$_ENV['HOSTNAME'];
-echo "\n Trigger Build from GitHub!!!!\n";
+echo "<br>\n Trigger Build from GitHub!\n";
 
 //phpinfo();
 exit;
